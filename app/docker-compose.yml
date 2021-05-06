@@ -1,0 +1,21 @@
+version: '2'
+services:
+    web-desafio:
+        restart: "no"
+
+        build: .
+        volumes:
+            - .:/app
+        links:
+            - "db:database"
+        ports:
+            - 80:8000/tcp
+    db:
+        image: postgres
+        restart: always
+        environment:
+            POSTGRES_PASSWORD: teste
+            POSTGRES_DB: teste
+            POSTGRES_USER: postgres
+        volumes:
+            - ./create_database.sql:/docker-entrypoint-initdb.d/create_tables.sql  
