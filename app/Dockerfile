@@ -9,7 +9,7 @@ LABEL version="1.0"
 #VARIAVEIS DA APLICACAO
 ENV FLASK_APP=app.py
 ENV FLASK_DEBUG=1
-ENV DB_HOST=database
+ENV DB_HOST=app_db_1
 ENV DB_NAME=teste
 ENV DB_USER=postgres
 ENV DB_PASSWD=teste
