@@ -9,5 +9,7 @@
         "hostPort": 80,
         "ContainerPort": 8080
       }
-    ]
+    ],
+    "Entrypoint": "python3",
+    "Command": "app.py"
 }
