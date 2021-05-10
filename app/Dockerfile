@@ -12,7 +12,7 @@ ENV FLASK_DEBUG=1
 ENV DB_HOST=app_db_1
 ENV DB_NAME=teste
 ENV DB_USER=postgres
-ENV DB_PASSWD=teste
+ENV DB_PASSWD=teste123
 
 ## Diretorio de inicio e da aplicacao
 VOLUME /app

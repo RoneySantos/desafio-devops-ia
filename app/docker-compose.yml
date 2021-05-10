@@ -14,7 +14,7 @@ services:
         image: postgres
         restart: always
         environment:
-            POSTGRES_PASSWORD: teste
+            POSTGRES_PASSWORD: teste123
             POSTGRES_DB: teste
             POSTGRES_USER: postgres
         volumes:
