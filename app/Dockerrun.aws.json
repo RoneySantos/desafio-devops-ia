@@ -1,7 +1,7 @@
 {
     "AWSEBDockerrunVersion": 1,
     "Image": {
-      "Name": "roneysantoss/labdesafioia:0.1",
+      "Name": "roneysantoss/labdesafioia:0.2",
       "Update": "true"
     },
     "Ports": [
